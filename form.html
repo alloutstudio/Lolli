@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </section><title>Wholesale Form</title>
+  <link rel="stylesheet" href="form.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="home.html" class="home-icon">🏠</a>
+      
+      <a href="home.html">
+      <img src="C:\laragon\www\website\lolli\pictures\Lollli logo (1).png" alt="Lolli Logo" class="logo" />
+      </a>
+
+      <!--<img src="C:\laragon\www\website\lolli\pictures\Lollli logo (1).png" alt="Lolli Logo" class="logo" />-->
+    </header>
+    <section class="form-box">
+      <h1>WHOLESALE FORM</h1>
+      <p class="subtitle">Complete this form to establish a wholesale partnership with us.</p>
+      <form action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="006981d9-6f8e-4eaf-85d5-9120d33cc24b">
+
+      <!--<form action="mailer.php" method="POST">-->
+        <label>NAME</label>
+        <input type="text" name="name" required />
+        <label>PHONE NUMBER</label>
+        <input type="tel" name="phone" required />
+        <label>EMAIL</label>
+        <input type="email" name="email" required />
+        <label>MESSAGE</label>
+        <textarea name="message" rows="4" required></textarea>
+        <button type="submit">SUBMIT</button>
+      </form>
+    </section>
+  </div>
+</body>
+</html>
