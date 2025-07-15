@@ -1,13 +1,13 @@
 body {
   font-family: Arial, sans-serif;
   text-align: center;
-  background: #000000;
+  background: #000000 ;
   margin: 0;
   padding: 0;
 }
 
 .banner {
-  width: 30%;             
+  width: 20%;             
   height: auto;
   display: block;
   margin-top: 40px;
@@ -70,9 +70,39 @@ label, input, textarea {
   text-decoration: none;
 }
 
-@media (max-width: 600pc) {
+@media (max-width: 600px) {
     .banner{
         max-height: 200px;
         border-radius: 8px;
     }
+}
+
+.footer {
+  text-align: center;        /* Same as text-center */
+  padding-bottom: 1.5rem;    /* Same as py-4 (bottom) */
+  background-color: #000;    /* Optional: same as bg-dark */
+  color: white;              /* Optional: same as text-white */
+  font-size: 14px;
+}
+
+.custom-gallery {
+  display: flex;
+  flex-wrap: nowrap;         /* force all in one horizontal line */
+  overflow-x: auto;          /* scroll horizontally if overflow */
+  gap: 20px;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.gallery-img-portrait {
+  width: 120%;
+  aspect-ratio: 3 / 4;        /* height greater than width */
+  object-fit: cover;
+  border: 3px solid white;
+  transition: transform 0.3s ease;
+  flex-shrink: 0;             /* prevent shrinking on small screens */
+}
+
+.gallery-img-portrait:hover {
+  transform: scale(1.05);
 }

@@ -21,8 +21,8 @@ header {
   position: absolute;
   left: 10px;
   top: 10px;
-  font-size: 24px;
-  text-decoration: none;
+  width:5%;
+  cursor:pointer;
   color: white;
 }
 
