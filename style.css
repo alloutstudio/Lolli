@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   text-align: center;
-  background: #000000 ;
+  background: linear-gradient(to right,#D61A70, #000,  #000);
   margin: 0;
   padding: 0;
 }
@@ -80,7 +80,7 @@ label, input, textarea {
 .footer {
   text-align: center;        /* Same as text-center */
   padding-bottom: 1.5rem;    /* Same as py-4 (bottom) */
-  background-color: #000;    /* Optional: same as bg-dark */
+  /*background-color: #000;    /* Optional: same as bg-dark */
   color: white;              /* Optional: same as text-white */
   font-size: 14px;
 }
